@@ -1,0 +1,140 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    
+}
+
+body{
+ background-color: rgb(236, 236, 236);
+ display:flex;
+ flex-direction: column;
+ 
+}
+
+.card{
+    
+    margin:15px;
+    padding:15px;
+    border-radius: 10px;
+    width: 400px
+}
+
+.card p{
+    color: rgb(165, 165, 165);
+    margin: 10px;
+    padding:10px;
+    line-height:1.5;
+    font-weight:500;
+    font-size:19px;
+}
+.card img{
+    border-radius:50%;
+    margin: 10px;
+
+}
+
+.name{
+    display: flex;
+    align-items: center;
+
+}
+
+.card-1{
+    background-color: rgba(71, 20, 107, 0.699);
+    width: 75%;
+}
+.card-1 img{
+    border: solid;
+    border-color: rgba(76, 0, 130, 0.13);
+}
+
+
+.card h3{
+    font-weight:200;
+    font-size:14px;
+}
+.card-1 h3{
+    color: rgb(209, 181, 230)
+}
+
+.card-1 h1{
+    color: white;
+    margin:15px;
+    
+}
+
+.card h1{
+    margin:15px;
+}
+
+
+.card-2{
+    background-color: hsl(209, 12%, 37%);
+}
+
+.card-2 h2{
+    color:white;
+    font-weight:400
+}
+.card h2{
+    font-weight:400;
+}
+
+.card h3{
+    color: hsla(209, 15%, 61%, 0.966);
+    font-weight: 400;
+    font-size:16px;
+}
+
+.card-3{
+    background-color: white;
+}
+
+.card-3 h1{
+    color: rgb(82, 82, 92)
+}
+
+.card-4{
+    background-color: rgb(2, 2, 19);
+    width:65%;
+}
+
+.card-4 h1, .card-4 h2{
+    color:white;
+
+}
+
+.card h2{
+    font-weight:500;
+}
+
+.card-5{
+    background-color: white;
+    position:absolute;
+    right:0;
+    width:20%
+}
+.card-5 h1{
+    color:  rgb(74, 74, 99);
+}
+
+.grid-1{
+    display:flex;
+}
+
+.grid-2{
+    display:flex;
+}
+
+.grid-3{
+    position:absolute;
+    width: 76%;
+}
+/*---media query---*/
+
+@media(max-width: 768px){
+    
+}
+
+
